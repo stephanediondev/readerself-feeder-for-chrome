@@ -1,0 +1,31 @@
+{
+	"name": "Reader Self Feeder",
+	"short_name": "Feeder",
+	"version": "1.1",
+	"description": "Extension related to Reader Self, self-hosted feeds aggregator and Google Reader alternative",
+	"manifest_version": 2,
+	"icons": {
+		"16": "/medias/readerself_16x16.png",
+		"48": "/medias/readerself_48x48.png",
+		"128": "/medias/readerself_128x128.png"
+	},
+	"homepage_url": "http://readerself.com",
+	"options_page": "/application/views/options.html",
+	"background": { "page": "/application/views/background.html" },
+	"content_scripts": [ {
+		"js": [ "/scripts/content.js" ],
+		"matches": [ "http://*/*", "https://*/*" ]
+	} ],
+	"page_action": {
+		"default_icon": "/medias/readerself_16x16.png",
+		"default_title": "Reader Self Feeder",
+		"default_popup": "/application/views/popup.html"
+	},
+	
+	"permissions": [
+		"storage",
+		"tabs",
+		"http://*/*",
+		"https://*/*"
+	]
+}

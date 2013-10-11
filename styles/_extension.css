@@ -1,0 +1,106 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{background-color:#FFFFFF;color:#333333;font-family:Helvetica,Arial,sans-serif;font-size:14px;margin:0px;}
+body.error{background-color:#FF9090;}
+a:link, a:visited{color:#777777;text-decoration:underline;}
+a:hover{color:#111111;}
+h1{font-size:16px;font-weight:bold;margin:15px 0px;}
+h2{font-size:15px;margin:10px 0px;}
+h3{font-size:14px;margin:5px 0px;}
+h4{font-size:13px;margin:5px 0px;}
+h5{font-size:12px;margin:5px 0px;}
+h6{font-size:11px;margin:5px 0px;}
+p{clear:both;margin:5px 0px;}
+img, iframe, video{max-width:100%;}
+em{font-style:italic;}
+strong{font-weight:bold;}
+del{text-decoration:line-through;}
+ins{font-style:italic;font-weight:bold;}
+pre{border:1px dashed #000000;padding:5px;}
+label, .label{cursor:text;display:block;padding-bottom:2px;padding-top:5px;position:relative;}
+input, textarea{border: 1px solid #777777;padding:5px;}
+textarea, input[type=text], input[type=password]{width:200px;}
+aside input[type=text], aside input[type=password]{width:170px;}
+.actions{font-size:12px;margin-bottom:5px;}
+.actions li{display:inline-block;margin:5px 5px 5px 0px;white-space:nowrap;}
+.actions li.hide{display:none !important;}
+.actions a span{display:inline-block;}
+button, .actions a:link, .actions a:visited{background-color:#A4374F;border:none;color:#EEEEEE;margin:0px;padding:3px 3px 3px 3px;position:relative;text-decoration:none;vertical-align:top;}
+
+main > section{margin:20px;position:relative;}
+
+button{background-color:#9EA64B;cursor:pointer;margin-top:10px;}
+.favicon, a.favicon:link, a.favicon:visited{background-position:center left;background-repeat:no-repeat;background-size:13px 13px;padding-left:16px;}
+h2 .favicon, h2.favicon, h2 a.favicon:link, h2 a.favicon:visited{background-size:16px 16px;padding-left:19px;}
+.icon{line-height:inherit !important;margin-right:3px;vertical-align:top;}
+
+article{background-color:#f5f5f5;border:1px solid #e3e3e3;border-radius:3px 3px 3px 3px;clear:both;padding:5px 10px 5px 10px;margin:0px 10px 15px 0px;overflow:hidden;}
+article.title{background-color:transparent;}
+.item-selected{border:1px solid #000000;}
+article h2{font-size:14px;font-weight:bold;margin:5px 0px;}
+article h2 a:link, article h2 a:visited{text-decoration:none;}
+article .actions{float:right;margin-right:0px;}
+article .actions li{margin:5px 0px 5px 4px;}
+article .actions a:link, article .actions a:visited{background-color:#5660d1;}
+article.title .actions a:link, article.title .actions a:visited{background-color:#255966;}
+
+[dir=rtl] .icon{margin-left:3px;margin-right:0px;vertical-align:top;}
+main > section article[dir=rtl] .actions, main > section article[dir=rtl] .actions{float:left;margin-left:0px;}
+main > section article[dir=rtl] .actions li{margin:5px 4px 5px 0px;}
+main > section article[dir=rtl] .item-details li{margin-left:5px;margin-right:0px;}
+main section article[dir=rtl] .item-footer .actions{float:right;}
+main section article[dir=rtl] .item-footer .actions li{margin:5px 0px 0px 4px;}
+main section article[dir=rtl] .item-footer .actions li:last-child{margin-left:0px;}
+
+span.color{display:block;float:left;height:5px;padding:4px;margin-right:2px;white-space:nowrap;}
+.color_red{background-color:#FF3366!important;}
+.color_orange{background-color:#FF9900!important;}
+.color_yellow{background-color:#FFDE00!important;}
+.color_gray{background-color:#CCCCCC!important;}
+.color_green{background-color:#66CC00!important;}
