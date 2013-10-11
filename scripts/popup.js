@@ -2,6 +2,9 @@ var BGPage = chrome.extension.getBackgroundPage();
 if(typeof BGPage.feeds !== undefined) {
 	$('ul').html('');
 	for(i in BGPage.feeds) {
+		if(!BGPage.feeds[i].title) {
+			BGPage.feeds[i].title = BGPage.feeds[i].href;
+		}
 		$('ul').append('<li style="margin-bottom:5px;"><a href="' + BGPage.feeds[i].href + '" style="outline:none;text-decoration:none;white-space:nowrap;"><i class="icon icon-plus"></i>' + BGPage.feeds[i].title + '</a></li>');
 	}
 }
