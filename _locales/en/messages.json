@@ -1,0 +1,20 @@
+{
+	"description": {
+		"message": "Detect feeds in current page and get direct links to subscribe in Reader Self"
+	},
+	"feeds": {
+		"message": "Feeds"
+	},
+	"options": {
+		"message": "Options"
+	},
+	"send": {
+		"message": "Send"
+	},
+	"url_blank": {
+		"message": "URL cannot be blank!"
+	},
+	"options_saved": {
+		"message": "Options saved successfully."
+	}
+}

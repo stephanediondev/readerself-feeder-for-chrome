@@ -1,0 +1,20 @@
+{
+	"description": {
+		"message": "Détecter les sources de la page courante et obtenir les liens directs pour souscrire dans Reader Self"
+	},
+	"feeds": {
+		"message": "Sources"
+	},
+	"options": {
+		"message": "Options"
+	},
+	"send": {
+		"message": "Envoyer"
+	},
+	"url_blank": {
+		"message": "L'URL ne peut être vide"
+	},
+	"options_saved": {
+		"message": "Options sauvegardées."
+	}
+}

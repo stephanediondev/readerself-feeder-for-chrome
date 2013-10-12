@@ -2,7 +2,8 @@
 	"name": "Reader Self Feeder",
 	"short_name": "Feeder",
 	"version": "1.1",
-	"description": "Extension related to Reader Self, self-hosted feeds aggregator and Google Reader alternative",
+	"default_locale": "en",
+	"description": "__MSG_description__",
 	"manifest_version": 2,
 	"icons": {
 		"16": "/medias/readerself_16x16.png",

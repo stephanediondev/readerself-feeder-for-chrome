@@ -7,3 +7,4 @@ Soon in Chrome Web Store
 
 * [jQuery](http://jquery.com/)
 * [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
+* [mustache](http://mustache.github.io/)
