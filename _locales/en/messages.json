@@ -2,6 +2,17 @@
 	"description": {
 		"message": "Detect feeds in current page and get direct links to subscribe in Reader Self"
 	},
+	"note_installation": {
+		"message": "Set your URL in options"
+	},
+	"note_updated": {
+		"message": "Updated to version $current_version$",
+		"placeholders": {
+			"current_version": {
+				"content": "$1"
+			}
+		}
+	},
 	"feeds": {
 		"message": "Feeds"
 	},

@@ -19,10 +19,10 @@ chrome.storage.local.get(null, function(cfg) {
 			var options_notification = {
 				'type': 'basic',
 				'title': 'Reader Self Feeder',
-				'message': 'Updated to version ' + current_version,
+				'message': chrome.i18n.getMessage('note_updated', current_version),
 				'iconUrl': '/medias/readerself_48x48.png'
 			};
-			chrome.notifications.create(current_version, options_notification, function() {
+			chrome.notifications.create('note_updated', options_notification, function() {
 			});
 		}
 
@@ -48,6 +48,19 @@ chrome.storage.local.get(null, function(cfg) {
 					}
 				}
 			});
+		} else {
+			if(!options.note_installation) {
+				chrome.storage.local.set( {'note_installation': true} );
+
+				var options_notification = {
+					'type': 'basic',
+					'title': 'Reader Self Feeder',
+					'message': 'Set your URL in options',
+					'iconUrl': '/medias/readerself_48x48.png'
+				};
+				chrome.notifications.create('note_installation', options_notification, function() {
+				});
+			}
 		}
 	}
 });
