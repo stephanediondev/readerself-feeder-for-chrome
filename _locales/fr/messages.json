@@ -3,7 +3,7 @@
 		"message": "Détecter les sources de la page courante et obtenir les liens directs pour souscrire dans Reader Self"
 	},
 	"note_installation": {
-		"message": "Définisser votre URL dans les options"
+		"message": "Définir votre URL dans les options"
 	},
 	"note_updated": {
 		"message": "Mise à jour à la version $current_version$",
