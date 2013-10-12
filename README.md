@@ -1,7 +1,7 @@
 ![Screenshot](medias/screenshot.png)
 
 ### Install
-Soon in Chrome Web Store
+From [Chrome Web Store](https://chrome.google.com/webstore/detail/reader-self-feeder/lnjjeiphdakecehcmeincfglpaabdiaf)
 
 ### Third party
 
