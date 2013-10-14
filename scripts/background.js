@@ -55,7 +55,7 @@ chrome.storage.local.get(null, function(cfg) {
 				var options_notification = {
 					'type': 'basic',
 					'title': 'Reader Self Feeder',
-					'message': 'Set your URL in options',
+					'message': chrome.i18n.getMessage('note_installation'),
 					'iconUrl': '/medias/readerself_48x48.png'
 				};
 				chrome.notifications.create('note_installation', options_notification, function() {

@@ -1,7 +1,7 @@
 {
 	"name": "Reader Self Feeder",
 	"short_name": "Feeder",
-	"version": "1.2",
+	"version": "1.2.1",
 	"default_locale": "en",
 	"description": "__MSG_description__",
 	"manifest_version": 2,
