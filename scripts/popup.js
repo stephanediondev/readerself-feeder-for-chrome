@@ -16,5 +16,5 @@ if(typeof BGPage.feeds !== undefined) {
 
 $('ul a').live('click', function(event) {
 	href = $(this).attr('href');
-	chrome.tabs.create({ url: BGPage.url_feed + '?u=' + href });
+	chrome.tabs.create({ url: BGPage.url_feed + '/?u=' + href });
 });
