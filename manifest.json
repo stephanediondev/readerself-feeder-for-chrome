@@ -1,6 +1,5 @@
 {
 	"name": "Reader Self Feeder",
-	"short_name": "Feeder",
 	"version": "1.2.2",
 	"default_locale": "en",
 	"description": "__MSG_description__",
@@ -22,7 +21,6 @@
 		"default_title": "Reader Self Feeder",
 		"default_popup": "/application/views/popup.html"
 	},
-	
 	"permissions": [
 		"notifications",
 		"storage",
